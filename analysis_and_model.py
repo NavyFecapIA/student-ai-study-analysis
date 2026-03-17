@@ -37,7 +37,7 @@ def perform_basic_eda(df: pd.DataFrame) -> None:
 
     print("\n=== Matriz de Correlação ===")
     corr_matrix = df.corr(numeric_only=True)
-    print(corr_matrix)
+    print(corr_matrix
 
     # Visualização: mapa de calor da correlação
     plt.figure(figsize=(8, 6))
